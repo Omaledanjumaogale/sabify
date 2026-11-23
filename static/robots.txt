@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /teacher
+Disallow: /parent
+
+Sitemap: https://sabify.pages.dev/sitemap.xml

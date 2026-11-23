@@ -1,0 +1,7 @@
+name = "sabify"
+compatibility_date = "2026-11-01"
+pages_build_output_dir = "./build"
+
+# Static SPA on Cloudflare Pages.
+# Build command: npm run build
+# Output directory: build

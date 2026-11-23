@@ -1,0 +1,24 @@
+{
+	"name": "Sabify — Learn. Play. Own it.",
+	"short_name": "Sabify",
+	"description": "Nigeria's gamified learning universe for kids, youths and students.",
+	"start_url": "/app",
+	"display": "standalone",
+	"background_color": "#fbf8ef",
+	"theme_color": "#0b2b1f",
+	"orientation": "portrait-primary",
+	"categories": ["education", "games", "kids"],
+	"icons": [
+		{
+			"src": "/icon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any maskable"
+		}
+	],
+	"shortcuts": [
+		{ "name": "My dashboard", "url": "/app" },
+		{ "name": "Play a game", "url": "/app/games" },
+		{ "name": "Daily quiz", "url": "/app/quiz" }
+	]
+}

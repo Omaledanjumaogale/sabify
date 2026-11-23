@@ -1,0 +1,37 @@
+{
+  "name": "sabify",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sabify — Nigeria's gamified, personalised learning universe for kids, youths and students.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.11",
+    "@sveltejs/kit": "^2.70.4",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/three": "^0.187.0",
+    "svelte": "^5.59.1",
+    "svelte-check": "^4.3.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8"
+  },
+  "dependencies": {
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@lucide/svelte": "^1.77.0",
+    "canvas-confetti": "^1.9.4",
+    "convex": "^1.51.0",
+    "three": "^0.187.0"
+  }
+}
